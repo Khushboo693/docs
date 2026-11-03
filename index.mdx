@@ -1,0 +1,52 @@
+---
+title: "Dreamcast Help Center: Guides for Regplus and Picbot"
+sidebarTitle: "Home"
+description: "Find step-by-step guides, answers, and support for every Dreamcast product, including Regplus registration and Picbot, all in one place."
+mode: "custom"
+---
+
+{/* Sample images: replace the src values with your own files later, e.g. /images/regbase.png */}
+
+export const ProductCard = ({ img, title, description, href }) => {
+  return (
+    <a className="group cursor-pointer pb-8 block" href={href}>
+      <div className="overflow-hidden rounded-xl">
+        <img
+          src={img}
+          alt=""
+          className="block w-full aspect-video object-cover pointer-events-none group-hover:scale-105 transition-all duration-100"
+        />
+      </div>
+      <h3 className="mt-5 text-gray-900 dark:text-zinc-50 font-medium">
+        {title}
+      </h3>
+      <span className="mt-1.5 block text-gray-500 dark:text-zinc-400">{description}</span>
+    </a>
+  );
+};
+
+<div className="relative">
+  <div className="absolute -top-14 left-0 right-0 opacity-80 [mask-image:linear-gradient(to_bottom,black,transparent)]">
+    <img src="/images/cover-v2.jpg" className="pointer-events-none w-full h-[28rem] object-cover" alt="Decorative background image." />
+  </div>
+
+  <div className="relative z-10 px-4 py-16 lg:py-48 lg:pb-24 max-w-3xl mx-auto">
+    <h1 className="block text-4xl font-medium text-center text-gray-900 dark:text-zinc-50 tracking-tight">
+      Dreamcast Help Center
+    </h1>
+
+    <div className="max-w-xl mx-auto px-4 mt-4 text-lg text-center text-gray-500 dark:text-zinc-500">
+      Choose a product to find guides, answers, and support.
+    </div>
+
+    <div className="px-6 lg:px-0 mt-12 lg:mt-24 grid sm:grid-cols-2 gap-x-6 gap-y-4">
+      <ProductCard img="/images/regplus-v3.jpg" title="Regplus" description="Dreamcast’s online event registration platform. Find guides for setting up and managing registration for your event." href="/regplus/overview" />
+
+      {/* Snipin hidden for now:
+                                                      <ProductCard img="/images/snipin.jpg" title="Snipin" description="Guides, billing, and troubleshooting for Snipin." href="/snipin/overview" />
+                                                      */}
+
+      <ProductCard img="/images/picbot-v2.jpg" title="Picbot" description="AI photo distribution tool for events. Find guides to organize attendee photos faster and deliver them easily on WhatsApp." href="/picbot/overview" />
+    </div>
+  </div>
+</div>

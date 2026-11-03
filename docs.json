@@ -1,0 +1,253 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "Dreamcast Help Center",
+  "colors": {
+    "primary": "#7C0DFF",
+    "light": "#A35BFF",
+    "dark": "#5B1FFF"
+  },
+  "favicon": "/images/favicon-v3.png",
+  "navigation": {
+    "products": [
+      {
+        "product": "regplus",
+        "icon": "clipboard-list",
+        "groups": [
+          {
+            "group": "Get Started",
+            "icon": "rocket",
+            "expanded": true,
+            "pages": [
+              "regplus/what-is-regplus",
+              "regplus/overview",
+              "registration/getting-started/quickstart",
+              "regplus/quick-tour"
+            ]
+          },
+          {
+            "group": "Create & publish an event",
+            "icon": "calendar-plus",
+            "pages": [
+              "regplus/create-your-first-event",
+              "regplus/registration-form",
+              "regplus/ticket-types",
+              "regplus/payments",
+              "regplus/discounts",
+              "regplus/publish-share",
+              "regplus/event-details"
+            ]
+          },
+          {
+            "group": "Registrations & attendees",
+            "icon": "users",
+            "pages": [
+              "regplus/invitations-rsvp",
+              "regplus/manage-registrants",
+              "regplus/approvals-limits",
+              "regplus/badges-check-in",
+              "regplus/guest-booking-journey"
+            ]
+          },
+          {
+            "group": "Communicate",
+            "icon": "comments",
+            "pages": [
+              "regplus/emails-whatsapp",
+              "regplus/confirmations-reminders",
+              "regplus/integrations"
+            ]
+          },
+          {
+            "group": "Track performance",
+            "icon": "chart-line",
+            "pages": [
+              "regplus/insights-reports",
+              "regplus/exports",
+              "regplus/insight-financial",
+              "regplus/insight-marketing",
+              "regplus/insight-attendee-dynamics",
+              "regplus/insight-bounced",
+              "regplus/insight-schedule-report"
+            ]
+          },
+          {
+            "group": "Promote your event",
+            "icon": "bullhorn",
+            "pages": [
+              "regplus/tracking-links",
+              "regplus/meta-pixel",
+              "regplus/social-sharing",
+              "regplus/embed-event",
+              "regplus/download-m-badge"
+            ]
+          },
+          {
+            "group": "Account & billing",
+            "icon": "credit-card",
+            "pages": [
+              "regplus/plans-billing",
+              "regplus/team-access",
+              "regplus/roles-permissions",
+              "regplus/advanced-mode",
+              "regplus/extensions",
+              "regplus/developers-api",
+              "regplus/danger-zone"
+            ]
+          },
+          {
+            "group": "How-to guides",
+            "icon": "book-open",
+            "pages": [
+              "regplus/how-to-external-link",
+              "regplus/how-to-add-to-calendar",
+              "regplus/how-to-prevent-duplicate-signups",
+              "regplus/how-to-issue-refund",
+              "regplus/how-to-check-in-guests",
+              "regplus/how-to-add-guest-manually",
+              "regplus/how-to-export-guests",
+              "regplus/how-to-change-ticket",
+              "regplus/how-to-resend-ticket",
+              "regplus/how-to-invite-only-event",
+              "regplus/how-to-setup-razorpay",
+              "regplus/how-to-setup-stripe",
+              "regplus/how-to-setup-paypal",
+              "regplus/how-to-configure-payments",
+              "regplus/how-to-create-discounts",
+              "regplus/how-to-create-event",
+              "regplus/how-to-ticket-types",
+              "regplus/how-to-registration-form",
+              "regplus/how-to-badges",
+              "regplus/how-to-manage-guests",
+              "regplus/how-to-invite-app",
+              "regplus/how-to-onground-checkin",
+              "regplus/how-to-emails-whatsapp",
+              "regplus/how-to-insight-reports",
+              "regplus/how-to-marketing",
+              "regplus/how-to-event-settings",
+              "regplus/how-to-event-page",
+              "regplus/how-to-ticket-advanced",
+              "regplus/how-to-slots-seating",
+              "regplus/how-to-rsvp-events",
+              "regplus/how-to-sign-in",
+              "regplus/how-to-tax-invoice",
+              "regplus/how-to-account-org",
+              "regplus/how-to-dashboard",
+              "regplus/how-to-design-journey"
+            ]
+          },
+          {
+            "group": "Help & Support",
+            "icon": "life-ring",
+            "pages": [
+              "registration/support/faq",
+              "registration/support/contact",
+              "registration/troubleshooting/common-issues",
+              "regplus/whats-new"
+            ]
+          }
+        ]
+      },
+      {
+        "product": "Snipin",
+        "icon": "scissors",
+        "groups": [
+          {
+            "group": "Get Started",
+            "icon": "rocket",
+            "expanded": true,
+            "pages": [
+              "snipin/overview",
+              "snipin/quickstart"
+            ]
+          },
+          {
+            "group": "Help & Support",
+            "icon": "life-ring",
+            "pages": [
+              "snipin/plans-and-billing",
+              "snipin/common-issues",
+              "snipin/faq",
+              "snipin/contact"
+            ]
+          }
+        ],
+        "hidden": true
+      },
+      {
+        "product": "Picbot",
+        "icon": "images",
+        "groups": [
+          {
+            "group": "Get Started",
+            "icon": "rocket",
+            "expanded": true,
+            "pages": [
+              "picbot/overview",
+              "picbot/quickstart"
+            ]
+          },
+          {
+            "group": "Help & Support",
+            "icon": "life-ring",
+            "pages": [
+              "picbot/plans-and-billing",
+              "picbot/common-issues",
+              "picbot/faq",
+              "picbot/contact"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "logo": {
+    "light": "/logo/dreamcast-logo.png",
+    "dark": "/logo/dreamcast-logo.png"
+  },
+  "navbar": {
+    "primary": {
+      "type": "button",
+      "label": "Contact Support",
+      "href": "mailto:support@dreamcast.co"
+    }
+  },
+  "contextual": {
+    "options": [
+      "copy",
+      "view",
+      "chatgpt",
+      "claude",
+      "perplexity",
+      "mcp",
+      "cursor",
+      "vscode"
+    ]
+  },
+  "styling": {
+    "eyebrows": "breadcrumbs"
+  },
+  "seo": {
+    "indexing": "all"
+  },
+  "fonts": {
+    "family": "Poppins"
+  },
+  "redirects": [
+    {
+      "source": "/regbase/what-is-reg-plus",
+      "destination": "/regplus/what-is-regplus",
+      "permanent": true
+    },
+    {
+      "source": "/regbase/:slug*",
+      "destination": "/regplus/:slug*",
+      "permanent": true
+    }
+  ],
+  "integrations": {
+    "ga4": {
+      "measurementId": "G-8W76F5FXJX"
+    }
+  }
+}

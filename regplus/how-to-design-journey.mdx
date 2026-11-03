@@ -1,0 +1,86 @@
+---
+title: "How to design the attendee journey"
+sidebarTitle: "Design the attendee journey"
+description: "Shape what guests experience — free or paid, instant or approved, open or invite-only, ticket or RSVP — using your backend settings."
+icon: "diagram-project"
+---
+
+**In short:** The journey your guests experience is the sum of your backend settings. This guide maps each setting to what it changes for the guest, then gives a few ready-made journeys you can copy. For the guest's-eye view of the flow, see [The guest booking journey](/regplus/guest-booking-journey).
+
+## Settings that shape the journey
+
+| Setting (in the backend) | What it changes for the guest | Where to set it |
+| --- | --- | --- |
+| **Ticket price (free or paid)** | A paid tier adds a payment step; a free tier confirms straight away. | [Ticket types](/regplus/how-to-ticket-types) |
+| **One tier or several** | Guests choose between the tiers you show under *Select your tiers*. | [Ticket types](/regplus/how-to-ticket-types) |
+| **Registration form fields** | The questions each attendee fills in when booking. | [Registration form](/regplus/how-to-registration-form) |
+| **Quantity & capacity limits** | How many tickets one guest can book, and when a tier shows as sold out. | [Approvals & limits](/regplus/approvals-limits) |
+| **Approval required** | The booking is confirmed instantly, or held as *pending* until you approve it. | [Approvals & limits](/regplus/approvals-limits) |
+| **Invite-only / private tier** | The tier is hidden from the public page and reached only by invite link or code. | [Invite-only events](/regplus/how-to-invite-only-event) |
+| **RSVP mode** | Guests reply yes/no instead of booking a ticket. | [RSVP events](/regplus/how-to-rsvp-events) |
+| **Slots or seating** | Guests pick a time slot or a seat as part of booking. | [Slots & seating](/regplus/how-to-slots-seating) |
+| **Discount codes** | Guests enter a code at checkout for money off. | [Discount codes](/regplus/how-to-create-discounts) |
+| **Confirmations & tickets** | What the guest receives after booking — email, WhatsApp and the QR badge. | [Emails & WhatsApp](/regplus/how-to-emails-whatsapp), [Badges](/regplus/how-to-badges) |
+
+## Build the journey step by step
+
+<Steps>
+  <Step title="Decide ticket or RSVP">
+    For a simple yes/no headcount, use **RSVP**. For anything with tiers, capacity or payment, use **ticket types**.
+  </Step>
+  <Step title="Set your tiers and prices">
+    Add one tier or several, each free or paid. This decides whether guests see a payment step.
+  </Step>
+  <Step title="Ask only what you need">
+    Keep the registration form short — every extra field is one more thing each guest fills in.
+  </Step>
+  <Step title="Choose instant or approved">
+    Turn on approval if you want to vet guests before confirming; leave it off for instant booking.
+  </Step>
+  <Step title="Decide who can see it">
+    Public on your event page, or invite-only via a link or code.
+  </Step>
+  <Step title="Finish the confirmation">
+    Set the email and WhatsApp messages and the badge your guests receive.
+  </Step>
+</Steps>
+
+## Common journeys to copy
+
+<AccordionGroup>
+  <Accordion title="Free RSVP (quick headcount)">
+    Use **RSVP mode**, keep the form to name, email and phone, and leave approval off. Guests reply in a couple of taps and get a confirmation — no payment, no tickets. See [RSVP events](/regplus/how-to-rsvp-events).
+  </Accordion>
+
+  <Accordion title="Paid, multi-tier ticketed event">
+    Add several **paid** tiers, turn on a payment gateway, and (optionally) add discount codes. Guests pick a tier, fill the form, pay, and get a QR ticket. See [Ticket types](/regplus/how-to-ticket-types) and [Configure payments](/regplus/how-to-configure-payments).
+  </Accordion>
+
+  <Accordion title="Invite-only / VIP">
+    Make the tier **private** and share its invite link or code only with the people you want. It stays off the public page. See [Invite-only events](/regplus/how-to-invite-only-event).
+  </Accordion>
+
+  <Accordion title="Apply-then-approve">
+    Turn on **approval required** so bookings arrive as *pending*. Review each one and approve or decline; guests are confirmed only once you approve. See [Approvals & limits](/regplus/approvals-limits).
+  </Accordion>
+
+  <Accordion title="Timed slots or seat selection">
+    Turn on **slots or seating** so guests pick a time or a seat while booking — good for tours, workshops or seated venues. See [Slots & seating](/regplus/how-to-slots-seating).
+  </Accordion>
+</AccordionGroup>
+
+<Tip>
+  Before you share your link, open your own event page and book a test ticket yourself — it's the fastest way to see the exact journey your guests will get.
+</Tip>
+
+## What's next?
+
+<CardGroup cols={2}>
+  <Card title="The guest booking journey" icon="route" href="/regplus/guest-booking-journey">
+    See the flow from the guest's side.
+  </Card>
+
+  <Card title="Create your first event" icon="calendar-plus" href="/regplus/how-to-create-event">
+    Build and publish an event end to end.
+  </Card>
+</CardGroup>
